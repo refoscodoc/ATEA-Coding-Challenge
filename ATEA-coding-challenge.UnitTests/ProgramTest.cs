@@ -14,7 +14,6 @@ public class Tests
         _args = new[] {"Cupcake","Cake"};
         _moreThanTwoNumbers = new[] { "Banana", "Apple", "Chinotto" };
         _twoNulls = new string[] { null, null };
-        _wrapperNulls = new ExtensionWrapper(_twoNulls);
         _wrapperTooMany = new ExtensionWrapper(_moreThanTwoNumbers);
     }
 

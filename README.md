@@ -11,6 +11,7 @@ I use a IHostBuilder for creating all the services and accessing the appsettings
 
 The following section retrieves such services and configuration and attempts a database migration at launch, in order to check for 
 the existence of the database and its validity. The migrations make use of EntityFramework.
+The database of choice for this project is MariaDb running on my local machine inside a Docker container.
 
 I then create a businessLayer object used for all the CRUD operations, save the passed arguments, and then continue with a loop.
 
