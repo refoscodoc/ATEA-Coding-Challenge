@@ -29,7 +29,7 @@ static class Program
             try
             {
                 var context = services.GetRequiredService<AteaChallengeDbContext>();
-                context.Database.Migrate();
+                await context.Database.MigrateAsync();
             }
             catch (Exception e)
             {
@@ -42,13 +42,17 @@ static class Program
 
         while (isContinuing != "N")
         {
-            Console.WriteLine("The sum of the two arguments is: " + args.SumFirstTwoArgs());
+            var argsSum = args.SumFirstTwoArgs();
+            if (argsSum is null)
+            {
+                Console.WriteLine("There was an error in summing the numbers");
+                continue;
+            }
+            Console.WriteLine("The sum of the two arguments is: " + argsSum);
             Console.WriteLine("===========================");
             Console.WriteLine("What operation would you like to perform? \n1) show latest 5 entries in Db \n2) show entries and details for a specific entry");
             Console.WriteLine("===========================");
             var operation = Convert.ToInt32(Console.ReadLine());
-
-            // if (!Int32.TryParse(input, out var number) || Int32.Parse(input) <= 0 || Int32.Parse(input) >= 4)
             if(operation < 1 || operation > 3)
             {
                 Console.WriteLine("The value should be between 1 and 3.");
@@ -61,9 +65,6 @@ static class Program
                     break;
                 case 2: await businessLayer.FindEntryById();
                     break;
-                // case 3: businessLayer();
-                //     break;
-                default: break;
             }
             Console.WriteLine("Continue with another operation? y/n");
             isContinuing = Console.ReadLine()?.ToUpper();
