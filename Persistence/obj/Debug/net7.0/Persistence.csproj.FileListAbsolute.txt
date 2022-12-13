@@ -1,0 +1,17 @@
+/home/alberto/RiderProjects/ATEA-coding-challenge/Persistence/bin/Debug/net7.0/Persistence.deps.json
+/home/alberto/RiderProjects/ATEA-coding-challenge/Persistence/bin/Debug/net7.0/Persistence.dll
+/home/alberto/RiderProjects/ATEA-coding-challenge/Persistence/bin/Debug/net7.0/Persistence.pdb
+/home/alberto/RiderProjects/ATEA-coding-challenge/Persistence/obj/Debug/net7.0/Persistence.csproj.AssemblyReference.cache
+/home/alberto/RiderProjects/ATEA-coding-challenge/Persistence/obj/Debug/net7.0/Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/home/alberto/RiderProjects/ATEA-coding-challenge/Persistence/obj/Debug/net7.0/Persistence.AssemblyInfoInputs.cache
+/home/alberto/RiderProjects/ATEA-coding-challenge/Persistence/obj/Debug/net7.0/Persistence.AssemblyInfo.cs
+/home/alberto/RiderProjects/ATEA-coding-challenge/Persistence/obj/Debug/net7.0/Persistence.csproj.CoreCompileInputs.cache
+/home/alberto/RiderProjects/ATEA-coding-challenge/Persistence/obj/Debug/net7.0/Persistence.dll
+/home/alberto/RiderProjects/ATEA-coding-challenge/Persistence/obj/Debug/net7.0/refint/Persistence.dll
+/home/alberto/RiderProjects/ATEA-coding-challenge/Persistence/obj/Debug/net7.0/Persistence.pdb
+/home/alberto/RiderProjects/ATEA-coding-challenge/Persistence/obj/Debug/net7.0/ref/Persistence.dll
+/home/alberto/RiderProjects/ATEA-coding-challenge/Persistence/bin/Debug/net7.0/Pomelo.EntityFrameworkCore.MySql.dll
+/home/alberto/RiderProjects/ATEA-coding-challenge/Persistence/bin/Debug/net7.0/Pomelo.EntityFrameworkCore.MySql.xml
+/home/alberto/RiderProjects/ATEA-coding-challenge/Persistence/obj/Debug/net7.0/Persistence.csproj.CopyComplete
+/home/alberto/RiderProjects/ATEA-coding-challenge/Persistence/bin/Debug/net7.0/Persistence.runtimeconfig.json
+/home/alberto/RiderProjects/ATEA-coding-challenge/Persistence/obj/Debug/net7.0/Persistence.genruntimeconfig.cache

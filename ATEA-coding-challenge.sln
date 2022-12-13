@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATEA-coding-challenge", "ATEA-coding-challenge\ATEA-coding-challenge.csproj", "{6FD168EE-DC81-4FE0-892D-4E992A2A27CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATEA-coding-challenge.UnitTests", "ATEA-coding-challenge.UnitTests\ATEA-coding-challenge.UnitTests.csproj", "{CC60F01B-4A86-4931-90BC-16CB9A4FBDB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{9A131984-B360-46FF-9205-BB7A2F67E8B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FD168EE-DC81-4FE0-892D-4E992A2A27CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FD168EE-DC81-4FE0-892D-4E992A2A27CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FD168EE-DC81-4FE0-892D-4E992A2A27CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FD168EE-DC81-4FE0-892D-4E992A2A27CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC60F01B-4A86-4931-90BC-16CB9A4FBDB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC60F01B-4A86-4931-90BC-16CB9A4FBDB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC60F01B-4A86-4931-90BC-16CB9A4FBDB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC60F01B-4A86-4931-90BC-16CB9A4FBDB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A131984-B360-46FF-9205-BB7A2F67E8B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A131984-B360-46FF-9205-BB7A2F67E8B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A131984-B360-46FF-9205-BB7A2F67E8B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A131984-B360-46FF-9205-BB7A2F67E8B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
