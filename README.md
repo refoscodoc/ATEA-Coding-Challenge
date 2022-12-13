@@ -18,7 +18,7 @@ I then create a businessLayer object used for all the CRUD operations, save the 
 
 Right before the loop, for readability, I'll display the sum of the two arguments.
 The aforementioned loop will allow the user to chose between two options: 
-- read through all the entries in the database
+- read through all the entries in the database. I decided to return the latest 5 entries in the database only, for readability.
 - read all the entries and select one, which brings to the details of the selected operation
 
 In order to display the sum of these two arguments, I created an extension method which checks in a very basic way for the type of the arguments,
