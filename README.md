@@ -6,7 +6,8 @@ The framework used is .NET7 and the libraries used match its version, including 
 
 Right after the entry point, there is a simple check for the amount of arguments provided. 
 As the requirement is to provide only two arguments, I opted for throwing an exception in case of a wrong amount of them.
-I could have implemented a try and catch block but in any case the application would have executed without the two passing arguments.
+I have implemented a try and catch block but in any case the application would execute without the two passing arguments:
+this is for mere cleanness in the verbose.
 
 I use a IHostBuilder for creating all the services and accessing the appsettings.json file in order to retrieve the configuration.
 
@@ -34,7 +35,7 @@ The DbContext uses EF as well, and doesn't provide specific OnModelCreating requ
 
 After the loop is interrupted, the application ceases to run. This is a design choice as the application can be called on demand for 
 any particular use case. In case I would have needed to let the application keep on running, I would personally have structured differently.
-For instance, through an enpdoint and with the host.Run() method looping the execution, without the while loop, but leaving the user
+For instance, through an endpoint and with the host.Run() method looping the execution, without the while loop, but leaving the user
 with the possibility to query the database and write to it indefinitely.
 
 Lastly, you'll find a UnitTest project using nUnit and some very basic testing over the extension method:

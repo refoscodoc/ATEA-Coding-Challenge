@@ -18,6 +18,7 @@ public static class BuilderCreator
              {
                  app.AddJsonFile("ATEA-coding-challenge/appsettings.json");
                  // app.AddJsonFile("appsettings.json");
+                 // the line of code above is used in order to avoid an error during the DB migrations
              })
              .ConfigureServices((context, services) =>
              {
@@ -29,8 +30,6 @@ public static class BuilderCreator
                  services.AddDbContext<AteaChallengeDbContext>(
                      dbContextOptions => dbContextOptions
                          .UseMySql(connectionString, serverVersion)
-                         // The following three options help with debugging, but should
-                         // be changed or removed for production.
                          .LogTo(Console.WriteLine, LogLevel.Information)
                          .EnableSensitiveDataLogging()
                          .EnableDetailedErrors()
