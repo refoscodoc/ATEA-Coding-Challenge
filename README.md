@@ -6,6 +6,7 @@ The framework used is .NET7 and the libraries used match its version, including 
 
 Right after the entry point, there is a simple check for the amount of arguments provided. 
 As the requirement is to provide only two arguments, I opted for throwing an exception in case of a wrong amount of them.
+I could have implemented a try and catch block but in any case the application would have executed without the two passing arguments.
 
 I use a IHostBuilder for creating all the services and accessing the appsettings.json file in order to retrieve the configuration.
 
