@@ -1,7 +1,7 @@
 # ATEA-Coding-Challenge
 
 The project is a Console Application and therefore the entry point is the static Main method.
-I chose to not use the .NET6+ non-scoped namespaces for clarity in the structure.
+I decided to not use the .NET6+ non-scoped namespaces for clarity in the structure.
 The framework used is .NET7 and the libraries used match its version, including Pomelo which required an alpha version in order to work. 
 
 Right after the entry point, there is a simple check for the amount of arguments provided. 
@@ -18,7 +18,7 @@ The database of choice for this project is MariaDb running on my local machine i
 I then create a businessLayer object used for all the CRUD operations, save the passed arguments, and then continue with a loop.
 
 Right before the loop, for readability, I'll display the sum of the two arguments.
-The aforementioned loop will allow the user to chose between two options: 
+The aforementioned loop will allow the user to choose between two options: 
 - read through all the entries in the database. I decided to return the latest 5 entries in the database only, for readability.
 - read all the entries and select one, which brings to the details of the selected operation
 
@@ -34,7 +34,7 @@ The read and write operations to the SQL database are performed through the Pers
 The DbContext uses EF as well, and doesn't provide specific OnModelCreating requirements due to the simplicity of the entity.
 
 After the loop is interrupted, the application ceases to run. This is a design choice as the application can be called on demand for 
-any particular use case. In case I would have needed to let the application keep on running, I would personally have structured differently.
+any particular use case. In case I would have needed to let the application keep on running, I would have structured differently.
 For instance, through an endpoint and with the host.Run() method looping the execution, without the while loop, but leaving the user
 with the possibility to query the database and write to it indefinitely.
 
