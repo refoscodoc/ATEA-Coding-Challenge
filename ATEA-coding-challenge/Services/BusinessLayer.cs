@@ -1,5 +1,5 @@
 using System.Diagnostics;
-using ATEA_coding_challenge.Models;
+using Persistence.Models;
 using Persistence.Repositories.Interfaces;
 
 namespace ATEA_coding_challenge.Services;

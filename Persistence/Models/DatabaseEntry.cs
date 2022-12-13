@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace ATEA_coding_challenge.Models;
+namespace Persistence.Models;
 
 public class DatabaseEntry
 {

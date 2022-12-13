@@ -1,7 +1,6 @@
-using ATEA_coding_challenge.Models;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Persistence.DataAccessLayer;
+using Persistence.Models;
 
 namespace Persistence.Repositories.Interfaces;
 

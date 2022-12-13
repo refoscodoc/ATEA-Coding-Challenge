@@ -1,6 +1,5 @@
 using ATEA_coding_challenge.Extensions;
 using ATEA_coding_challenge.Extensions.Interfaces;
-using Moq;
 
 namespace ATEA_coding_challenge.UnitTests;
 

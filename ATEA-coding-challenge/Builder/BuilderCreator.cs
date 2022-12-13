@@ -1,4 +1,3 @@
-using ATEA_coding_challenge.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;

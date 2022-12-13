@@ -4,10 +4,7 @@ using ATEA_coding_challenge.Extensions;
 using ATEA_coding_challenge.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Persistence.DataAccessLayer;
-using Persistence.Repositories;
 using Persistence.Repositories.Interfaces;
 
 namespace ATEA_coding_challenge;

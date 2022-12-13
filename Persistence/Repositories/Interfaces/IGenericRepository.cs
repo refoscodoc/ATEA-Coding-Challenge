@@ -1,4 +1,4 @@
-using ATEA_coding_challenge.Models;
+using Persistence.Models;
 
 namespace Persistence.Repositories.Interfaces;
 

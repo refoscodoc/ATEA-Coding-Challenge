@@ -1,5 +1,5 @@
-using ATEA_coding_challenge.Models;
 using Microsoft.EntityFrameworkCore;
+using Persistence.Models;
 
 namespace Persistence.DataAccessLayer;
 
